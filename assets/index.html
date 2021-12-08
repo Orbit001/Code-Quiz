@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> Coding Quiz!</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    
+
+</head>
+<body>
+    <div id="start">
+        <h1>Welcome to this Quiz.</h1>
+        <p id="answer">Upon hitting begin, questions will be presented. Choose which you think is correct by clicking on your choice. The time left is your final score.</p>
+            <div class="buttonbox">
+                <button id="startbutton" type="button" class="buttons">Begin Quiz!</button>
+                <button id="clearbutton" type="button" class="buttons">Clear Board</button>
+            </div>
+    </div>
+
+    <div id = "quizcard" >
+        <h2 id="countdown"></h2>
+            <div id='ques1'>
+                <header class=header>
+                    <h3 id="question"></h3>
+                </header>
+                    <hr style="margin-top:0; border-color:transparent;">
+                        <div id="Choices" >
+                            <ul id="optionz">
+                            <li id="o1">
+                                <button id="Ch1" class="buttonsq"></button>
+                            </li>
+                            <li id="o2">
+                                <button id="Ch2" class="buttonsq"></button>
+                            </li>
+                            <li id="o3">
+                                <button id="Ch3" class="buttonsq"></button>
+                            </li>
+                            <li id="o4">
+                                <button id="Ch4" class="buttonsq"></button>
+                            </li>
+                            </ul>
+                            <p id="rightwrong"></p>
+                            
+                        </div>
+            </div>
+    </div>
+    
+    <div id="after">
+        <h1>Game has finished!</h1>
+        <h2 id="finalscore"></h2>
+            <form id="yooomp">
+                <label for="PlayerInitials">Enter Your Initials Here:</label><br>
+                <input id="PlayerInitials" type="text"  ><br>
+                <input id="FinalBtn" type="button" value="Submit!" class="buttonsq">
+            </form>
+    </div>
+    <div id="leaderboard">
+        <h1>Top 10 Leaderboard</h1>
+        <div ID = "list">
+            <li id ="Li1"></li>
+            <li id ="Li2"></li>
+            <li id ="Li3"></li>
+            <li id ="Li4"></li>
+            <li id ="Li5"></li>
+            <li id ="Li6"></li>
+            <li id ="Li7"></li>
+            <li id ="Li8"></li>
+            <li id ="Li9"></li>
+            <li id ="Li10"></li>
+        </div>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

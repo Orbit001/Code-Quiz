@@ -1,0 +1,88 @@
+body{
+    background: #5CDB95;
+    color: #05386b;
+
+}
+#Ch1 #Ch2 #Ch3 #Ch4{
+    border:snow solid 5px;
+}
+#start{
+        padding: 70px 0;
+        align-content: center;
+        text-align: center;
+        padding-bottom: 30px;
+}
+.buttonbox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    
+}
+.buttons{
+
+    margin-bottom: 1.5%;
+    width:10%;
+    
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 8px 18px;
+    border: 0;
+    color: #3a4149;
+    background: #EDF5E1;
+    line-height: 1.15;
+    font-size: 16px;
+}
+
+.buttonsq{
+    /* margin-bottom: 1.5%;
+    width:10%; */
+
+    outline: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 3px;
+    padding: 8px 18px;
+    border: 0;
+    color: #3a4149;
+    background: #EDF5E1;    
+    line-height: 1.15;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom:5px;
+
+}
+
+#quizcard{
+    display:none;
+    padding: 70px 0;
+    align-content: center;
+    text-align: center;
+}
+#after{
+    display: none;
+    padding: 70px 0;
+    align-content: center;
+    text-align: center;
+}
+#leaderboard h1{
+    font-size: xx-large;
+}
+#Choices{
+    box-sizing: border-box;
+    justify-content: center;
+    
+}
+#leaderboard{
+    margin-top: 10px;
+    padding: 0px 0;
+    align-content: center;
+    text-align: center;
+    text-orientation:upright;
+    
+}
+#list, #optionz{
+    list-style-type: none;
+}
